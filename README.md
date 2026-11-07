@@ -16,6 +16,8 @@ I can see processor and memory use, network activity, uptime and storage warning
 
 Storage monitoring helps me spot drives that are getting full or cannot be reached. An inaccessible drive needs checking; it does not necessarily mean it has failed.
 
+HomeCore retains periodic server measurements and previous drive status changes. If something needs attention, I can use the Operations Ledger, its recorded-event view, to filter warnings by time and severity and check the results of alert deliveries.
+
 ## Finding something to watch
 
 Holostream is my film and television browser inside HomeCore. I can search, browse shelves and filter titles, then see what is already in Plex or follow a request through approval and processing.
@@ -25,6 +27,10 @@ Holostream is my film and television browser inside HomeCore. I can search, brow
 *“In Plex” shows what is available to watch; “Processing” helps me keep track of requests.*
 
 TMDb supplies film and television information, while Plex tells HomeCore what is in my library. Connected Radarr and Sonarr installations handle approved movie and television requests. The calendar brings upcoming media and its status into view, and requests needing attention stay easy to find.
+
+![Holostream media calendar with episode artwork and availability states](images/media-calendar.png)
+
+*The media calendar brings release dates and states such as Downloaded, Monitored and Missing into one view.*
 
 ## Seeing what is running
 
@@ -40,7 +46,13 @@ Media Stack groups the media applications I have configured so I can check them 
 
 Archive Intelligence lets me explore the playback history recorded by Tautulli, the application that keeps track of Plex viewing. Timelines, calendars and title views give me different ways to look back through that history. Playback totals can include several people watching at once.
 
+![Archive Intelligence timeline comparing recorded film and television playback](images/archive-timeline.png)
+
+*The timeline lets me compare film and television playback across months. Viewer names and individual title histories are kept out of view.*
+
 HomeCore also reaches beyond the browser. It can send storage and Plex image alerts to selected Nest Hubs, prepare a grayscale page for a compatible Kindle wall display and supply server information to my Rainmeter desktop widget. The Nest Hub alerts use casting, so their behaviour depends on the receiving device.
+
+The [Rainmeter showcase](https://github.com/patrickmccabeie-dot/rainmeter-skins#keeping-an-eye-on-the-server) shows the desktop monitoring widget.
 
 ## A typical visit
 
